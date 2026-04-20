@@ -6,7 +6,7 @@ from datetime import datetime
 
 # 1. Configuración de la conexión (Ajusta con tus credenciales de Docker/Local)
 # Formato: postgresql://usuario:password@localhost:5432/nombre_db
-DATABASE_URL = "postgresql://postgres:onepiece@localhost:5432/ciudadai_db"
+DATABASE_URL = "postgresql://TU-USUARIO:TU-CONTRASEÑA@localhost:5432/ciudadai_db"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
